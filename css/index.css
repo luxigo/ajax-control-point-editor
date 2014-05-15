@@ -1,0 +1,181 @@
+body {
+  overflow: hidden;
+}
+
+html, body, .container {
+  width:100%;
+  height: 100%;
+}
+
+.left, .right {
+  height: 100%;
+  width: 50%;
+  float:left;
+  overflow: hidden;
+}
+
+.img {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+img {
+  visibility: hidden;
+  overflow: hidden;
+}
+
+.button {
+  z-index: 99;
+  position: absolute;
+  -webkit-border-radius:50%;
+          border-radius:50%;
+}
+
+.icon {
+  width: 41px;
+  height: 41px;
+  background-image: url(FreeVector-Tech-Icon-Pack.png);
+  background-repeat: no-repeat;
+  border-width: 0px;
+}
+
+.text {
+  height: 16px;
+  padding: 10px;
+  border-width: 1px;
+  border-color: #00B8F1;
+  background-color: white;
+  opacity: 40%;
+  color: #135FAC;
+}
+
+.zoomin {
+  top:  140px;
+  margin-left: 35px;
+  background-position: -60px -179px;
+}
+
+.zoomout {
+  top: 185px;
+  margin-left: 35px;
+  background-position: -60px -246px;
+}
+.navright {
+  top: 60px;
+  margin-left: 60px;
+  background-position: -60px -112px;
+}
+.navleft {
+  top:60px;
+  margin-left: 10px;
+  background-position: -60px -379px;
+}
+.navup {
+  top:  25px;
+  margin-left: 35px;
+  background-position: -60px -45px;
+}
+.navdown {
+  top:  94px;
+  margin-left: 35px;
+  background-position: -60px -312px;
+}
+
+.relief {
+  opacity: 0.3;
+  background: linear-gradient( to bottom, white, gray);
+  border-style: outset;
+}
+.relief:hover {
+  background: linear-gradient( to top, white, gray);
+  border-style: outset;
+}
+.relief:active {
+  background: linear-gradient( to top, white, black);
+  border-style: inset;
+}
+
+.view {
+  top: 25px;
+  margin-left: 120px;
+}
+
+.load {
+  top: 25px;
+  margin-left: 120px;
+}
+
+.color {
+  top: 25px;
+  margin-left: 180px;
+}
+
+.interpolate {
+  top: 25px;
+  margin-left: 240px;
+}
+
+.info {
+  position: fixed;
+  bottom: 10px;
+  margin-left: 10px;
+  padding: 4px;
+}
+
+.right .info {
+  right: 10px;
+}
+
+.info table {
+  color: rgba(255,255,255,0.8);
+}
+
+.info.range {
+  bottom: 10px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  width: 220px;
+}
+
+.info.range .list {
+  margin-bottom: 16px;
+}
+
+.info div {
+  position: relative;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.info.range table {
+  margin: auto;
+}
+
+.info.range .list div:nth-child(even) {
+  border-bottom: 1px solid rgba(255,255,255,0.4);
+  border-top: 1px solid rgba(255,255,255,0.4);
+}
+
+.marker {
+  position: absolute;
+  background-image: url(dot.png);                                                                                                   
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100%;
+  text-indent: 20px;
+}
+                              
+.keep {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+#openFileDialog {
+  height: 240px;
+  width: 320px;
+  background: white;
+  overflow: scroll;
+}
+
